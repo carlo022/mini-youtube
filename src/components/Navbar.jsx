@@ -2,13 +2,16 @@ import { FiMenu, FiSearch, FiMic, FiVideo, FiBell } from "react-icons/fi";
 import { SiYoutube } from "react-icons/si";
 import { Link } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar({ toggleMobileMenu }) {
   return (
     <nav className="flex items-center justify-between px-4 py-2 bg-[#0f0f0f] sticky top-0 z-50">
       
       {/* Left Section: Menu & Logo */}
       <div className="flex items-center gap-4">
-        <button className="p-2 hover:bg-gray-800 rounded-full transition">
+        <button 
+          onClick={toggleMobileMenu}
+          className="p-2 hover:bg-gray-800 rounded-full transition"
+        >
           <FiMenu size={20} />
         </button>
         <Link to="/" className="flex items-center gap-1 cursor-pointer">
