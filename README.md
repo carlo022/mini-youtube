@@ -1,16 +1,59 @@
-# React + Vite
+# Mini YouTube
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight YouTube-like video streaming application built with modern web technologies.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Mini YouTube is a simplified video platform that provides core video viewing and discovery features. The project demonstrates best practices in frontend development with a focus on performance and user experience.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React with Vite
+- **Styling**: CSS
+- **Build Tool**: Vite with Hot Module Replacement (HMR)
+- **Linting**: ESLint
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive video player interface
+- Video discovery and browsing
+- Fast development experience with Vite's HMR
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14+)
+- npm or yarn
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+Starts the development server with HMR support for instant code updates.
+
+### Build
+
+```bash
+npm run build
+```
+
+Creates an optimized production build.
+
+## Project Structure
+
+- Built with **97.9% JavaScript**, **2% HTML**, **0.1% CSS**
+- React components for modular UI development
+- Vite configuration for optimized bundling
+
+## License
+
+MIT
